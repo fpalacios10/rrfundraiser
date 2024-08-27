@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rrschoolfundraiser/static/css/main.54f385d1.css",
-    "main.js": "/rrschoolfundraiser/static/js/main.a9f0b1a9.js",
-    "static/js/453.a999532f.chunk.js": "/rrschoolfundraiser/static/js/453.a999532f.chunk.js",
-    "index.html": "/rrschoolfundraiser/index.html",
-    "main.54f385d1.css.map": "/rrschoolfundraiser/static/css/main.54f385d1.css.map",
-    "main.a9f0b1a9.js.map": "/rrschoolfundraiser/static/js/main.a9f0b1a9.js.map",
-    "453.a999532f.chunk.js.map": "/rrschoolfundraiser/static/js/453.a999532f.chunk.js.map"
+    "main.css": "/rrfundraiser/static/css/main.54f385d1.css",
+    "main.js": "/rrfundraiser/static/js/main.810763aa.js",
+    "static/js/453.a999532f.chunk.js": "/rrfundraiser/static/js/453.a999532f.chunk.js",
+    "index.html": "/rrfundraiser/index.html",
+    "main.54f385d1.css.map": "/rrfundraiser/static/css/main.54f385d1.css.map",
+    "main.810763aa.js.map": "/rrfundraiser/static/js/main.810763aa.js.map",
+    "453.a999532f.chunk.js.map": "/rrfundraiser/static/js/453.a999532f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54f385d1.css",
-    "static/js/main.a9f0b1a9.js"
+    "static/js/main.810763aa.js"
   ]
 }
