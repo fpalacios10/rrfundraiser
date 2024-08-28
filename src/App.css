@@ -1,6 +1,6 @@
 /* App.css */
 #root {
-    padding-top: 20px;
+    padding-top: 0;
 }
 #root::before {
     content: "";
@@ -67,17 +67,67 @@ h2 span {
     font-style: normal;
     font-size: 28px;
     line-height: 30px;
+    display: block;
+    margin-bottom: 15px;
 }
 .content-container {
+    position: relative;
     text-align: center;
-    padding: 50px 20px 20px;
+    padding: 90px 20px 20px;
     /* background-color: rgba(0, 0, 0, 0.1); */
+}
+.content-container::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 253px;
+    background-image: url(banner-flag.jpg);
+    z-index: -1;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 h5 {
     margin-bottom: 0;
+}
+.date {
+    color: red;
+    font-size: 34px;
 }
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 40px;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    #root {
+        padding-top: 20px;
+    }
+}
+
+.icon {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+#female-dancer {
+    left: 0;
+    bottom: 100px;
+}
+#mechanical-bull {
+    bottom: 180px;
+    right: 0px;
+    width: 250px;
+}
+
+#jumping-castle {
+    bottom: 350px;
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+    object-position: right;
+    left: 100px;
 }

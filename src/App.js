@@ -223,31 +223,47 @@ const App = () => {
         <div className='app'>
             <div className='content-container'>
                 <h1>Rocky Ridge School Carnival Fundraiser</h1>
-                <h2>September 7th, 2024`</h2>
-
+                <h2 className='date'>September 7th, 2024</h2>
                 <h2>
                     <span>Location:</span> Big Pavillion - Rocky Ridge Park
                 </h2>
-
                 <h2>
                     <span>Food:</span> 11am - 6pm
                 </h2>
-
                 <h2>
                     <span>Games:</span> 1pm - 5:30pm
                 </h2>
-
                 <h2>
-                    <span>Bouncy House:</span> 11am - 6pm <span>Bull</span> 12pm
-                    - 4pm
+                    <span>Bouncy House:</span> 11am - 6pm
                 </h2>
-
+                <h2>
+                    <span>Bull:</span> 12pm - 4pm
+                </h2>
                 <h2>
                     <span>Dances and Raffles:</span>
                 </h2>
                 <br />
                 <h1>Raffle and Auction Baskets</h1>
                 <h5>Click an image to see details of contents of baskets</h5>
+
+                <img
+                    className='icon'
+                    id='female-dancer'
+                    src='images/female-dancer.jpg'
+                    alt='dancer'
+                />
+                <img
+                    className='icon'
+                    id='mechanical-bull'
+                    src='images/mechanical-bull.jpg'
+                    alt='mechanical bull'
+                />
+                <img
+                    className='icon'
+                    id='jumping-castle'
+                    src='images/jumping-castle.jpg'
+                    alt='jumping castle'
+                />
             </div>
 
             <div className='card-container'>
