@@ -32,3 +32,18 @@
         flex-basis: 29%;
     }
 }
+
+.card .image-holder {
+    position: relative;
+}
+.card .image-holder span {
+    display: block;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 5px 0;
+}

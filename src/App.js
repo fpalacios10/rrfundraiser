@@ -34,7 +34,7 @@ const App = () => {
         },
         {
             image: "images/img2.jpg",
-            title: "$221 Value - Campfire Special",
+            title: "$221 Value - Basket #2",
             Items: [
                 "Fire pit",
                 "Apple cider Packets",
@@ -47,10 +47,11 @@ const App = () => {
                 "Jerky",
                 "Fire starter",
             ],
+            auctionItem: true,
         },
         {
             image: "images/img3.jpg",
-            title: "$152 Value - Boys Dream",
+            title: "$152 Value - Basket #3",
             Items: [
                 "Spike ball pro",
                 "PickleBall set for 4",
@@ -60,7 +61,7 @@ const App = () => {
         },
         {
             image: "images/img4.jpg",
-            title: "$220 Value - What's Cookin'",
+            title: "$220 Value - Basket #4",
             Items: [
                 "Two bowls one large one medium metal",
                 "Knives several different sizes",
@@ -71,14 +72,15 @@ const App = () => {
             ],
         },
         {
-            image: "images/coming-soon.jpg",
-            title: "$400 Value - Aarons",
+            image: "images/bag.jpeg",
+            title: "$400 Value - Basket #5",
             Items: ["Basic survival kit"],
         },
         {
-            image: "images/coming-soon.jpg",
-            title: "$300 Value - Christian Education Book Set",
+            image: "images/books.jpeg",
+            title: "$300 Value - Basket #6",
             Items: [
+                "CHRISTIAN EDUCATION BOOK SET:",
                 "WASHINGTON",
                 "Consider and Ponder",
                 "CHOC.1",
@@ -89,7 +91,7 @@ const App = () => {
         },
         {
             image: "images/img7.jpg",
-            title: "$100 Value - Ready for Christmas",
+            title: "$100 Value - Basket #7",
             Items: [
                 "Space excavation kit",
                 "Click stick Kit",
@@ -137,10 +139,11 @@ const App = () => {
                 "Nail care kit",
                 "Push up bars",
             ],
+            auctionItem: true,
         },
         {
             image: "images/img9.jpg",
-            title: "$382 Value - Let's Go Hunting",
+            title: "$382 Value - Basket #9",
             Items: [
                 "Hammock",
                 "Retractable portable clothesline",
@@ -158,10 +161,11 @@ const App = () => {
                 "Paracord",
                 "Military Surplus Ammo can",
             ],
+            auctionItem: true,
         },
         {
             image: "images/img10.jpg",
-            title: "$378 Value - Mom's Spa Package",
+            title: "$378 Value - Basket #10",
             Items: [
                 "Head massager",
                 "Iron Flask cups",
@@ -179,7 +183,7 @@ const App = () => {
         },
         {
             image: "images/img11.jpg",
-            title: "$225 Value - Mom's Spa Package",
+            title: "$225 Value - Basket #11",
             Items: [
                 "Head Massager",
                 "Iro Flask cup",
@@ -203,6 +207,46 @@ const App = () => {
             Items: ["Blanket", "Mug", "Tea", "Chocolate", "Gift card"],
         },
         {
+            image: "images/rm-gift-card.jpg",
+            title: "$75 Value - Basket #13",
+            Items: ["Two separate drawings, each with is a $75 Gift card."],
+        },
+        {
+            image: "images/img14.jpg",
+            title: "$252 Value - Basket #14",
+            Items: [
+                "Iron Flask Cup",
+                "1 mini Photo session",
+                "Eyelash tint kit",
+                "Butterfly clips",
+                "Bluetooth speaker",
+                "Head massager",
+                "Black Bag",
+                "LED photo lights",
+                "Eye shadow",
+            ],
+        },
+        {
+            image: "images/img15.jpg",
+            title: "$126 Value - Basket #15",
+            Items: [
+                "Iron Flask Cup",
+                "Butterfly clips",
+                "1 manicure gift certificate",
+                "Bluetooth speaker",
+                "Head massager",
+                "Black bag",
+                "LED photo lights",
+                "Eye shadow",
+                "INFINITRO Hair Curler by Conair",
+            ],
+        },
+        {
+            image: "images/capture-flag.jpg",
+            title: "$75 Value - Basket #16",
+            Items: ["Glow in the Dark"],
+        },
+        {
             image: "images/coming-soon.jpg",
             title: "$275 Value - Overnight Getaway",
             Items: [
@@ -212,6 +256,35 @@ const App = () => {
                 "Sparkling cider",
                 "Chocolates",
             ],
+        },
+        {
+            image: "images/swing.png",
+            title: "$120 Value - Basket #18",
+            Items: ["New Porch Swing"],
+        },
+        {
+            image: "images/img19.jpg",
+            title: "$50 Value - Basket #19",
+            Items: [
+                "Heart Duffle bag",
+                "Hair brush",
+                "Hooded Cat towel",
+                "Soft blanket",
+                "Bead making set",
+                "Press on fake nails",
+                "Ring pops",
+                "Socks",
+                "Scrunchies",
+                "Water bottle",
+                "Sour patch kids",
+                "Little notebook",
+            ],
+        },
+        {
+            image: "images/blanket.jpg",
+            title: "$100 Value - Basket ##",
+            Items: ["Hand Made Quilt", "Queen Size"],
+            auctionItem: true,
         },
         {
             image: "images/coming-soon-color.jpg",
