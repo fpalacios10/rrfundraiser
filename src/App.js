@@ -297,7 +297,7 @@ const App = () => {
                 </p>
 
                 <a href='https://venmo.com/?txn=pay&audience=friends&recipients=christinapalacios91'>
-                    <img src='images/Venmo-button.png' alt='venmo-button' />
+                    <img src='images/Venmo-Button.png' alt='venmo-button' />
                     <span>christinapalacios91</span>
                 </a>
             </div>
