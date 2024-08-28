@@ -114,12 +114,12 @@ h5 {
     opacity: 0.8;
 }
 #female-dancer {
-    left: 0;
+    left: 50px;
     bottom: 100px;
 }
 #mechanical-bull {
     bottom: 180px;
-    right: 0px;
+    right: 50px;
     width: 250px;
 }
 
@@ -130,4 +130,36 @@ h5 {
     height: 300px;
     object-position: right;
     left: 100px;
+}
+#food {
+    width: 250px;
+    bottom: 550px;
+    right: 55px;
+}
+@media screen and (max-width: 930px) {
+    .icon {
+        width: 100px !important;
+    }
+
+    #female-dancer {
+        left: 0;
+        bottom: 225px;
+    }
+    #mechanical-bull {
+        bottom: 280px;
+        right: 20px;
+    }
+    #jumping-castle {
+        bottom: 580px;
+        width: 150px !important;
+        object-fit: cover;
+        object-position: right;
+        left: -10px;
+        height: 150px !important;
+    }
+    #food {
+        width: 150px;
+        bottom: 710px;
+        right: 0;
+    }
 }

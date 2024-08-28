@@ -228,7 +228,7 @@ const App = () => {
                     <span>Location:</span> Big Pavillion - Rocky Ridge Park
                 </h2>
                 <h2>
-                    <span>Food:</span> 11am - 6pm
+                    <span>Food:</span> 11am - 8pm
                 </h2>
                 <h2>
                     <span>Games:</span> 1pm - 5:30pm
@@ -240,7 +240,11 @@ const App = () => {
                     <span>Bull:</span> 12pm - 4pm
                 </h2>
                 <h2>
-                    <span>Dances and Raffles:</span>
+                    <span>Dance:</span> 6pm - 6:30pm-ish
+                </h2>
+                <h2>
+                    <span>Raffle and Auction:</span> Immediately following
+                    Dances
                 </h2>
                 <br />
                 <h1>Raffle and Auction Baskets</h1>
@@ -263,6 +267,12 @@ const App = () => {
                     id='jumping-castle'
                     src='images/jumping-castle.jpg'
                     alt='jumping castle'
+                />
+                <img
+                    className='icon'
+                    id='food'
+                    src='images/food.jpg'
+                    alt='food'
                 />
             </div>
 
