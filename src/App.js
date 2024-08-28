@@ -71,12 +71,12 @@ const App = () => {
             ],
         },
         {
-            image: "images/img5.jpg",
+            image: "images/coming-soon.jpg",
             title: "$400 Value - Aarons",
             Items: ["Basic survival kit"],
         },
         {
-            image: "images/img6.jpg",
+            image: "images/coming-soon.jpg",
             title: "$300 Value - Christian Education Book Set",
             Items: [
                 "WASHINGTON",
@@ -198,12 +198,12 @@ const App = () => {
             ],
         },
         {
-            image: "images/img12.jpg",
+            image: "images/coming-soon.jpg",
             title: "$250 Value - Barnes and Noble",
             Items: ["Blanket", "Mug", "Tea", "Chocolate", "Gift card"],
         },
         {
-            image: "images/img13.jpg",
+            image: "images/coming-soon.jpg",
             title: "$275 Value - Overnight Getaway",
             Items: [
                 "Art City Inn (Springville)",
@@ -213,34 +213,42 @@ const App = () => {
                 "Chocolates",
             ],
         },
+        {
+            image: "images/coming-soon-color.jpg",
+            title: "More To Come",
+            Items: ["Check Back soon"],
+        },
     ];
     return (
         <div className='app'>
-            <h1>Rocky Ridge School Carnival Fundraiser</h1>
-            <h2>September 7th, 2024`</h2>
+            <div className='content-container'>
+                <h1>Rocky Ridge School Carnival Fundraiser</h1>
+                <h2>September 7th, 2024`</h2>
 
-            <h2>
-                <span>Location:</span> Big Pavillion - Rocky Ridge Park
-            </h2>
+                <h2>
+                    <span>Location:</span> Big Pavillion - Rocky Ridge Park
+                </h2>
 
-            <h2>
-                <span>Food:</span> 11am - 6pm
-            </h2>
+                <h2>
+                    <span>Food:</span> 11am - 6pm
+                </h2>
 
-            <h2>
-                <span>Games:</span> 1pm - 5:30pm
-            </h2>
+                <h2>
+                    <span>Games:</span> 1pm - 5:30pm
+                </h2>
 
-            <h2>
-                <span>Bouncy House:</span> 11am - 6pm <span>Bull</span> 12pm -
-                4pm
-            </h2>
+                <h2>
+                    <span>Bouncy House:</span> 11am - 6pm <span>Bull</span> 12pm
+                    - 4pm
+                </h2>
 
-            <h2>
-                <span>Dances and Raffles:</span>
-            </h2>
-            <h2>Raffle and Auction Baskets</h2>
-            <h5>Click an image to see details of contents of baskets</h5>
+                <h2>
+                    <span>Dances and Raffles:</span>
+                </h2>
+                <br />
+                <h1>Raffle and Auction Baskets</h1>
+                <h5>Click an image to see details of contents of baskets</h5>
+            </div>
 
             <div className='card-container'>
                 {jsonData.map((data, index) => (
