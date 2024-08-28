@@ -216,8 +216,32 @@ const App = () => {
     ];
     return (
         <div className='app'>
+            <h1>Rocky Ridge School Carnival Fundraiser</h1>
+            <h2>September 7th, 2024`</h2>
+
+            <h2>
+                <span>Location:</span> Big Pavillion - Rocky Ridge Park
+            </h2>
+
+            <h2>
+                <span>Food:</span> 11am - 6pm
+            </h2>
+
+            <h2>
+                <span>Games:</span> 1pm - 5:30pm
+            </h2>
+
+            <h2>
+                <span>Bouncy House:</span> 11am - 6pm <span>Bull</span> 12pm -
+                4pm
+            </h2>
+
+            <h2>
+                <span>Dances and Raffles:</span>
+            </h2>
             <h2>Raffle and Auction Baskets</h2>
             <h5>Click an image to see details of contents of baskets</h5>
+
             <div className='card-container'>
                 {jsonData.map((data, index) => (
                     <Card
