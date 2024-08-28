@@ -1,26 +1,34 @@
-import React from "react";
-import "./SidePanel.css"; // You can style as needed
+import React, { useEffect } from "react";
+import "./SidePanel.css";
 
-const SidePanel = ({ data, onClose }) => {
-    if (!data) return null;
+const SidePanel = ({ isOpen, data, onClose }) => {
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden"; // Prevent background scroll
+        } else {
+            document.body.style.overflow = ""; // Reset overflow when panel closes
+        }
 
-    // Prevent clicks inside the panel from closing it
-    const handlePanelClick = (e) => {
-        e.stopPropagation();
-    };
+        // Cleanup on component unmount
+        return () => {
+            document.body.style.overflow = ""; // Ensure overflow is reset on unmount
+        };
+    }, [isOpen]);
 
     return (
-        <div className='side-panel' onClick={handlePanelClick}>
+        <div className={`side-panel ${isOpen ? "open" : ""}`}>
             <button className='close-button' onClick={onClose}>
-                X
+                ×
             </button>
-            <img src='data.image' />
-            <h2>{data.title}</h2>
-            <ul>
-                {data.Items.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
+            <div className='side-card'>
+                <img src={data?.image} alt={data?.title} />
+                <h2>{data?.title}</h2>
+                <ul>
+                    {data?.Items.map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 };
