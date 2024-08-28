@@ -173,7 +173,16 @@ h5 {
 .venmo-container img {
     width: 275px;
 }
+.venmo-container a {
+    text-decoration: none;
+}
 .venmo-container a span {
     display: block;
     color: #000;
+}
+
+.small-red {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
 }
