@@ -21,7 +21,10 @@ const SidePanel = ({ isOpen, data, onClose }) => {
                 ×
             </button>
             <div className='side-card'>
-                <img src={data?.image} alt={data?.title} />
+                <div className='image-holder'>
+                    <img src={data?.image} alt={data?.title} />
+                    {data?.auctionItem && <span>Auction Item</span>}
+                </div>
                 <h2>{data?.title}</h2>
                 <ul>
                     {data?.Items.map((item, index) => (
