@@ -237,7 +237,7 @@ const App = () => {
                     <span>Bouncy House:</span> 11am - 6pm
                 </h2>
                 <h2>
-                    <span>Bull:</span> 12pm - 4pm
+                    <span>Mechanical Bull:</span> 12pm - 4pm
                 </h2>
                 <h2>
                     <span>Dance:</span> 6pm - 6:30pm-ish
@@ -284,6 +284,22 @@ const App = () => {
                         onImageClick={handleImageClick}
                     />
                 ))}
+            </div>
+            <div className='venmo-container'>
+                <p>
+                    Can't make it to the event but still want to participate in
+                    the Raffles?
+                </p>
+                <p>
+                    Use the Venmo link below to send Christina Palacios which
+                    basket and how many tickets you want and we can add them in
+                    for you.
+                </p>
+
+                <a href='https://venmo.com/?txn=pay&audience=friends&recipients=christinapalacios91'>
+                    <img src='images/Venmo-button.png' alt='venmo-button' />
+                    <span>christinapalacios91</span>
+                </a>
             </div>
             {/* Overlay */}
             {selectedData && <div className='overlay' onClick={handleClose} />}

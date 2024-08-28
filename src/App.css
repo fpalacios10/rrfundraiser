@@ -163,3 +163,17 @@ h5 {
         right: 0;
     }
 }
+
+.venmo-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.venmo-container img {
+    width: 275px;
+}
+.venmo-container a span {
+    display: block;
+    color: #000;
+}

@@ -2,19 +2,26 @@
 .card {
     display: inline-block;
     margin: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    border: 1px solid #ddd;
-    padding: 10px;
     text-align: center;
     flex-basis: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
 }
 
 .card img {
     object-fit: cover;
     width: 100%;
     height: 250px;
+    border-radius: 5px;
 }
-
+.card h3 {
+    font-family: "Rum Raisin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
 @media screen and (min-width: 640px) {
     .card {
         flex-basis: 42%;
