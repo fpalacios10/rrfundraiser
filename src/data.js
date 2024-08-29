@@ -37,6 +37,7 @@ const jsonData = [
             "Basketball",
             "Football",
         ],
+        auctionItem: true,
     },
     {
         image: "images/img4.jpg",
@@ -53,7 +54,7 @@ const jsonData = [
     {
         image: "images/bag.jpeg",
         title: "$400 Value - Basket #5",
-        Items: ["Basic survival kit"],
+        Items: ["Basic survival kit", "Details to come"],
     },
     {
         image: "images/books.jpeg",
@@ -179,6 +180,7 @@ const jsonData = [
             "Moon spray magnesium oil",
             "Gift card $175",
         ],
+        auctionItem: true,
     },
     {
         image: "images/coming-soon.jpg",
@@ -204,6 +206,7 @@ const jsonData = [
             "LED photo lights",
             "Eye shadow",
         ],
+        auctionItem: true,
     },
     {
         image: "images/img15.jpg",
@@ -226,15 +229,16 @@ const jsonData = [
         Items: ["Glow in the Dark"],
     },
     {
-        image: "images/coming-soon.jpg",
+        image: "images/img21.jpg",
         title: "$275 Value - Overnight Getaway",
         Items: [
             "Art City Inn (Springville)",
-            "Magleby's gift card",
+            "$75 Magleby's gift card",
             "Wine glasses",
             "Sparkling cider",
             "Chocolates",
         ],
+        auctionItem: true,
     },
     {
         image: "images/swing.png",
@@ -264,6 +268,20 @@ const jsonData = [
         title: "$100 Value - Basket ##",
         Items: ["Hand Made Quilt", "Queen Size"],
         auctionItem: true,
+    },
+    {
+        image: "images/img22.jpg",
+        title: "$100 Value - Basket 22",
+        Items: [
+            "Emergency Herbal Kit",
+            "Cayenne Tincture",
+            "X-Ceptic Tincture",
+            "Immuzoon Tincture",
+            "Lobelia Tincture",
+            "BF&C Ointment",
+            "Plantain Salve",
+            "Grandma's Salve",
+        ],
     },
     {
         image: "images/coming-soon-color.jpg",
