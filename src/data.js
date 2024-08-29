@@ -144,12 +144,13 @@ const jsonData = [
         auctionItem: true,
     },
     {
-        image: "images/img10.jpg",
-        title: "$378 Value - Basket #10",
+        image: "images/img11.jpg",
+        title: "$343 Value - Basket #10",
         Items: [
             "Head massager",
             "Iron Flask cups",
             "Foot Zone",
+            "Massage",
             "Mini photo shoot",
             "Nail Manicure",
             "Claw clips",
@@ -162,11 +163,11 @@ const jsonData = [
         ],
     },
     {
-        image: "images/img11.jpg",
-        title: "$225 Value - Basket #11",
+        image: "images/img10.jpg",
+        title: "$378 Value - Basket #11",
         Items: [
             "Head Massager",
-            "Iro Flask cup",
+            "Iron Flask cup",
             "Foot zone",
             "Massage",
             "Nail manicure",
@@ -178,7 +179,7 @@ const jsonData = [
             "Prayer journal",
             "Sport spray magnesium oil",
             "Moon spray magnesium oil",
-            "Gift card $175",
+            "$140 Gift Card to 'My Sisters Closet'",
         ],
         auctionItem: true,
     },
@@ -190,7 +191,7 @@ const jsonData = [
     {
         image: "images/rm-gift-card.jpg",
         title: "$75 Value - Basket #13",
-        Items: ["Two separate drawings, each with is a $75 Gift card."],
+        Items: ["Two separate drawings, each with a $75 Gift card."],
     },
     {
         image: "images/img14.jpg",
@@ -210,7 +211,7 @@ const jsonData = [
     },
     {
         image: "images/img15.jpg",
-        title: "$126 Value - Basket #15",
+        title: "$246 Value - Basket #15",
         Items: [
             "Iron Flask Cup",
             "Butterfly clips",
@@ -221,6 +222,7 @@ const jsonData = [
             "LED photo lights",
             "Eye shadow",
             "INFINITRO Hair Curler by Conair",
+            "$120 Gift Card to 'My Sisters Closet'",
         ],
     },
     {
