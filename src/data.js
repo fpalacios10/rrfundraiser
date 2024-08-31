@@ -89,7 +89,7 @@ const jsonData = [
     },
     {
         image: "images/books2.jpg",
-        title: "$300 Value - Basket #6",
+        title: "$350 Value - Basket #6",
         Items: [
             "CHRISTIAN EDUCATION BOOK SET:",
             "WASHINGTON",
@@ -216,9 +216,15 @@ const jsonData = [
         auctionItem: true,
     },
     {
-        image: "images/coming-soon.jpg",
-        title: "$180 Value - Barnes and Noble",
-        Items: ["Blanket", "Mug", "Tea", "Chocolate", "Gift card"],
+        image: "images/barnes-noble.jpg",
+        title: "$150 Value - Basket #12",
+        Items: [
+            "Blanket",
+            "Mug",
+            "Tea",
+            "Chocolate",
+            "$50 Barnes & Noble Gift card",
+        ],
     },
     {
         image: "images/rm-gift-card.jpg",
