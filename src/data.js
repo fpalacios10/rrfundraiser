@@ -319,7 +319,7 @@ const jsonData = [
     },
     {
         image: "images/date-night-2.jpg",
-        title: "$100 Value - Basket #22",
+        title: "$250 Value - Basket #22",
         Items: [
             "$140 Hale Movie Theater Gift Certificate",
             "$100 Cheese Cake Factory Gift Card",
