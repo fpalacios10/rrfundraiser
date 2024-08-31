@@ -99,7 +99,7 @@ const jsonData = [
             "Webster 1828 Dictionary",
             "CHOC. 2",
         ],
-        auctionItem: true,
+        auctionItem: false,
     },
     {
         image: "images/img7.jpg",
@@ -217,7 +217,7 @@ const jsonData = [
     },
     {
         image: "images/coming-soon.jpg",
-        title: "$250 Value - Barnes and Noble",
+        title: "$180 Value - Barnes and Noble",
         Items: ["Blanket", "Mug", "Tea", "Chocolate", "Gift card"],
     },
     {
