@@ -88,7 +88,7 @@ const jsonData = [
         ],
     },
     {
-        image: "images/books.jpeg",
+        image: "images/books2.jpg",
         title: "$300 Value - Basket #6",
         Items: [
             "CHRISTIAN EDUCATION BOOK SET:",
@@ -99,6 +99,7 @@ const jsonData = [
             "Webster 1828 Dictionary",
             "CHOC. 2",
         ],
+        auctionItem: true,
     },
     {
         image: "images/img7.jpg",
