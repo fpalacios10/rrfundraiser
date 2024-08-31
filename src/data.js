@@ -263,8 +263,9 @@ const jsonData = [
     },
     {
         image: "images/img21.jpg",
-        title: "$275 Value - Overnight Getaway",
+        title: "$275 Value - Basket - #17",
         Items: [
+            "Overnight Getaway:",
             "Art City Inn (Springville)",
             "$75 Magleby's gift card",
             "Wine glasses",
@@ -298,13 +299,13 @@ const jsonData = [
     },
     {
         image: "images/blanket.jpg",
-        title: "$100 Value - Basket ##",
+        title: "$100 Value - Basket #20",
         Items: ["Hand Made Quilt", "Queen Size"],
         auctionItem: true,
     },
     {
         image: "images/img22.jpg",
-        title: "$100 Value - Basket 22",
+        title: "$100 Value - Basket 21",
         Items: [
             "Emergency Herbal Kit",
             "Cayenne Tincture",
@@ -315,6 +316,17 @@ const jsonData = [
             "Plantain Salve",
             "Grandma's Salve",
         ],
+    },
+    {
+        image: "images/date-night-2.jpg",
+        title: "$100 Value - Basket #22",
+        Items: [
+            "$140 Hale Movie Theater Gift Certificate",
+            "$100 Cheese Cake Factory Gift Card",
+            "Wine Glasses",
+            "Chocolate",
+        ],
+        auctionItem: false,
     },
     {
         image: "images/coming-soon-color.jpg",
