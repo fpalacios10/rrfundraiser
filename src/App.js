@@ -49,6 +49,10 @@ const App = () => {
                     <img src='images/Venmo-Button.png' alt='venmo-button' />
                     <span>@christinapalacios91</span>
                 </a>
+                <p>
+                    For questions about Raffle please contact Christina
+                    Palacios: <a href='tel:5203434124'>520-343-4124</a>
+                </p>
             </div>
             {/* Overlay */}
             {selectedData && <div className='overlay' onClick={handleClose} />}
