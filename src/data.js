@@ -270,7 +270,7 @@ const jsonData = [
     },
     {
         image: "images/img21.jpg",
-        title: "$275 Value - Basket - #17",
+        title: "$275 Value - Basket #17",
         Items: [
             "Overnight Getaway:",
             "Art City Inn (Springville)",
@@ -312,7 +312,7 @@ const jsonData = [
     },
     {
         image: "images/img22.jpg",
-        title: "$100 Value - Basket 21",
+        title: "$100 Value - Basket #21",
         Items: [
             "Emergency Herbal Kit",
             "Cayenne Tincture",

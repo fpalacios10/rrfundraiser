@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Card from "./Card";
 import SidePanel from "./SidePanel";
 import ContentContainer from "./ContentContainer";
+import PrintPage from "./PrintPage"; // Import the PrintPage component
 import "./App.css"; // You can style as needed
 import jsonData from "./data";
 
@@ -22,48 +24,80 @@ const App = () => {
     };
 
     return (
-        <div className='app'>
-            <ContentContainer />
+        <Router>
+            <div className='app'>
+                <Routes>
+                    {/* Main application route */}
+                    <Route
+                        path='/'
+                        element={
+                            <>
+                                <ContentContainer />
 
-            <div className='card-container'>
-                {jsonData.map((data, index) => (
-                    <Card
-                        key={index}
-                        data={data}
-                        onImageClick={handleImageClick}
+                                <div className='card-container'>
+                                    {jsonData.map((data, index) => (
+                                        <Card
+                                            key={index}
+                                            data={data}
+                                            onImageClick={handleImageClick}
+                                        />
+                                    ))}
+                                </div>
+
+                                <div className='venmo-container'>
+                                    <p>
+                                        Can't make it to the event but still
+                                        want to participate in the Raffles?
+                                    </p>
+                                    <p>
+                                        Use the Venmo link below to send
+                                        Christina Palacios which basket and how
+                                        many tickets you want and we can add
+                                        them in for you.
+                                    </p>
+
+                                    <a href='https://venmo.com/?txn=pay&audience=friends&recipients=christinapalacios91'>
+                                        <img
+                                            src='images/Venmo-Button.png'
+                                            alt='venmo-button'
+                                        />
+                                        <span>@christinapalacios91</span>
+                                    </a>
+                                    <p>
+                                        For questions about Raffle please
+                                        contact Christina Palacios:{" "}
+                                        <a href='tel:5203434124'>
+                                            520-343-4124
+                                        </a>
+                                    </p>
+                                </div>
+
+                                {/* Overlay */}
+                                {selectedData && (
+                                    <div
+                                        className='overlay'
+                                        onClick={handleClose}
+                                    />
+                                )}
+
+                                {/* SidePanel */}
+                                <SidePanel
+                                    isOpen={isOpen}
+                                    data={selectedData}
+                                    onClose={handleClose}
+                                />
+                            </>
+                        }
                     />
-                ))}
-            </div>
-            <div className='venmo-container'>
-                <p>
-                    Can't make it to the event but still want to participate in
-                    the Raffles?
-                </p>
-                <p>
-                    Use the Venmo link below to send Christina Palacios which
-                    basket and how many tickets you want and we can add them in
-                    for you.
-                </p>
 
-                <a href='https://venmo.com/?txn=pay&audience=friends&recipients=christinapalacios91'>
-                    <img src='images/Venmo-Button.png' alt='venmo-button' />
-                    <span>@christinapalacios91</span>
-                </a>
-                <p>
-                    For questions about Raffle please contact Christina
-                    Palacios: <a href='tel:5203434124'>520-343-4124</a>
-                </p>
+                    {/* Print route */}
+                    <Route
+                        path='/print/:basketNumber'
+                        element={<PrintPage />}
+                    />
+                </Routes>
             </div>
-            {/* Overlay */}
-            {selectedData && <div className='overlay' onClick={handleClose} />}
-
-            {/* SidePanel */}
-            <SidePanel
-                isOpen={isOpen}
-                data={selectedData}
-                onClose={handleClose}
-            />
-        </div>
+        </Router>
     );
 };
 
