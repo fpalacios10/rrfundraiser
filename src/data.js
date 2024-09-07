@@ -336,6 +336,19 @@ const jsonData = [
         auctionItem: false,
     },
     {
+        image: "images/img-23.jpg",
+        title: "$100 Value - Basket #23",
+        Items: [
+            "Two sets of baby clothes",
+            "Dr. Brown Happy Paci",
+            "4 pack baby mittens",
+            "Baby wrap carrier",
+            "Swaddle Blankets",
+            "Baby cozy",
+        ],
+        auctionItem: false,
+    },
+    {
         image: "images/coming-soon-color.jpg",
         title: "More To Come",
         Items: ["Check Back soon"],

@@ -11,7 +11,7 @@ const ContentContainer = () => {
                 <span>Location:</span> Big Pavillion - Rocky Ridge Park
             </h2>
             <h2>
-                <span>Food:</span> 11am - 8pm
+                <span>Food:</span> 12am - 8pm
             </h2>
             <h2>
                 <span>Games:</span> 1pm - 5:30pm
